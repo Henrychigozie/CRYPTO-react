@@ -39,7 +39,7 @@ const Hero = () => {
             <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-4 rounded-full font-semibold text-[13px] transition flex items-center justify-center gap-2 shadow-lg shadow-purple-500/30">
               Get started <ArrowRight className="text-[13px]" />
             </button>
-            <button className="border border-white/40 hover:bg-white/10 text-black px-6 py-4 rounded-full font-semibold text-[13px] transition flex items-center justify-center gap-2 bg-white">
+            <button className="border border-white/40 hover:bg-black text-black px-6 py-4 rounded-full font-semibold text-[13px] transition flex items-center justify-center gap-2 bg-white hover:text-white">
               How it works
               <PlayCircle className="text-[15px]" />
             </button>

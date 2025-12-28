@@ -64,8 +64,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Optional: Mobile Menu Dropdown (hidden by default) */}
-      {/* You can expand this later with useState */}
     </nav>
   );
 };
