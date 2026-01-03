@@ -7,7 +7,7 @@ const Platform = () => {
   return (
     <>
       <div
-        className="min-h-screen relative bg-cover bg-center bg-no-repeat"
+        className="h-full relative bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${bgImage})`,
         }}
