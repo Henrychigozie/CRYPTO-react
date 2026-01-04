@@ -6,10 +6,10 @@ import bitcoinImg from "../src/assets/demo-cryptocurrency-image-01-2.png";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-[#0b052b] to-[#1a0b4d] text-white min-h-full overflow-x-hidden">
+    <section className="relative bg-linear-to-br from-[#0b052b] to-[#1a0b4d] text-white min-h-full overflow-x-hidden">
 
       <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="w-full h-full bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:40px_40px]" />
+        <div className="w-full h-full bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-size-[40px_40px]" />
       </div>
 
       <div className="relative max-w-7xl mx-auto pl-9 pt-30 pb-20 flex items-center justify-between gap-12 max-[992px]:flex-col max-[992px]:px-6">
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Floating Crypto Coins */}
-        <div className="w-[120%] relative left-40 max-[992px]:w-[80%] max-[992px]:left-0 max-[400px]:w-[100%]">
+        <div className="w-[120%] relative left-40 max-[992px]:w-[80%] max-[992px]:left-0 max-[400px]:w-full">
           <img
             src={bitcoinImg}
             alt="Cryptocurrency"

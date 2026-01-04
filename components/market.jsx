@@ -127,17 +127,17 @@ export default function Market() {
                   </svg>
                 ) : (
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-graph-up-arrow"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"
-                    />
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="bi bi-graph-up-arrow"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"
+                      />
                   </svg>
                 )}
               </div>
@@ -164,7 +164,7 @@ export default function Market() {
             {features.map((feature) => (
               <div
                 key={feature.title}
-                className="bg-[#140c3a] px-8 py-3 flex flex-col items-center text-center hover:bg-gradient-to-t from-[#16075f] via-[#13074e]  transition-all"
+                className="bg-[#140c3a] px-8 py-3 flex flex-col items-center text-center hover:bg-linear-to-t from-[#16075f] via-[#13074e]  transition-all"
               >
                 <div className="w-24 h-24 mb-3 flex items-center justify-center text-white">
                   {feature.icon}
