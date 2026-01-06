@@ -10,37 +10,23 @@ import icon4 from "../src/assets/demo-cryptocurrency-icon-03.png";
 const StepCard = ({ icon, title, description }) => {
   return (
     <div className="flex flex-col items-center text-center px-5 group transition-transform duration-300 hover:-translate-y-1">
-      
       {/* Icon */}
       <div className="relative mb-7">
         <div
-          className="w-20 h-20 rounded-full flex items-center justify-center
-          border border-blue-500/30
-          group-hover:border-purple-500/80
+          className="flex items-center justify-center
           transition duration-300
           shadow-[0_0_0_0_rgba(99,102,241,0)]
-          group-hover:shadow-[0_0_25px_rgba(99,102,241,0.35)]"
+        "
         >
-          <img
-            src={icon}
-            alt={title}
-            className="w-10 h-10 object-contain"
-          />
+          <img src={icon} alt={title} className="w-17 object-cover" />
         </div>
 
         {/* Plus badge */}
-        <div className="absolute -bottom-1 -right-1 bg-white rounded-full p-1 shadow">
-          <div className="w-3 h-3 text-black font-bold flex items-center justify-center text-xs">
-            +
-          </div>
-        </div>
       </div>
 
-      <h3 className="text-white text-lg font-semibold mb-3">
-        {title}
-      </h3>
+      <h3 className="text-white text-lg font-semibold mb-3">{title}</h3>
 
-      <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
+      <p className="text-gray-400 text-[14px] leading-relaxed max-sm:text-[15px]">
         {description}
       </p>
     </div>
@@ -78,9 +64,8 @@ export default function GetStarted() {
   ];
 
   return (
-    <section className="bg-[#0b0b22] py-24 px-6 font-sans">
-      <div className="max-w-6xl mx-auto">
-
+    <section className="bg-[#0b0527] py-24 px-12 font-sans border border-t-white">
+      <div className="max-w-7xl mx-auto max-sm:max-w-6xl">
         {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -92,12 +77,11 @@ export default function GetStarted() {
         </div>
 
         {/* Steps Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9">
           {steps.map((step, index) => (
             <StepCard key={index} {...step} />
           ))}
         </div>
-
       </div>
     </section>
   );

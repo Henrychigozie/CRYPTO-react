@@ -1,13 +1,11 @@
 // src/components/Hero.jsx
 import React from "react";
-import { PlayCircle,ArrowRight } from "react-bootstrap-icons";
+import { PlayCircle, ArrowRight } from "react-bootstrap-icons";
 import bitcoinImg from "../src/assets/demo-cryptocurrency-image-01-2.png";
-
 
 const Hero = () => {
   return (
     <section className="relative bg-linear-to-br from-[#0b052b] to-[#1a0b4d] text-white min-h-full overflow-x-hidden">
-
       <div className="absolute inset-0 opacity-30 pointer-events-none">
         <div className="w-full h-full bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-size-[40px_40px]" />
       </div>
@@ -17,7 +15,8 @@ const Hero = () => {
         <div className="max-w-2xl text-center lg:text-left">
           {/* Stats Badge */}
           <div className="inline-flex items-center bg-green-700/20  px-4 py-2 rounded-full text-[15px] font-medium mb-8">
-            <span className="mr-2 text-green-400">2300k+</span> daily active investors
+            <span className="mr-2 text-green-400">2300k+</span> daily active
+            investors
           </div>
 
           {/* Main Headline */}
@@ -33,7 +32,6 @@ const Hero = () => {
             security & protect against fraud & hacking.
           </p>
 
-         
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-4 rounded-full font-semibold text-[13px] transition flex items-center justify-center gap-2 shadow-lg shadow-purple-500/30">
