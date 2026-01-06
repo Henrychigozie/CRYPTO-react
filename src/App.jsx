@@ -8,6 +8,7 @@ import Market from '../components/market.jsx'
 import About from '../components/about.jsx'
 import Platform from '../components/platform.jsx'
 import GetStarted from '../components/get-started.jsx'
+import HeroServiceSection from '../components/explore.jsx'
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Platform />
       <GetStarted />
+      <HeroServiceSection />
     </>
   )
 }
