@@ -9,6 +9,7 @@ import About from '../components/about.jsx'
 import Platform from '../components/platform.jsx'
 import GetStarted from '../components/get-started.jsx'
 import HeroServiceSection from '../components/explore.jsx'
+import Reviews from '../components/reviews.jsx'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       <Platform />
       <GetStarted />
       <HeroServiceSection />
+      <Reviews />
     </>
   )
 }
