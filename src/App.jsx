@@ -10,6 +10,7 @@ import Platform from '../components/platform.jsx'
 import GetStarted from '../components/get-started.jsx'
 import HeroServiceSection from '../components/explore.jsx'
 import Reviews from '../components/reviews.jsx'
+import Reviews2 from '../components/reviews2.jsx'
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
       <GetStarted />
       <HeroServiceSection />
       <Reviews />
+      <Reviews2 />
     </>
   )
 }

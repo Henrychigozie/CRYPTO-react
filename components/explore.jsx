@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroServiceSection = () => {
   return (
-    <section className="relative w-full h-full flex items-center bg-gradient-to-br from-[#140b41] via-[#15002e] to-[#140b41] text-white overflow-hidden">
+    <section className="relative w-full h-full flex items-center bg-linear-to-br from-[#140b41] via-[#15002e] to-[#140b41] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-16 py-24 grid max-[992px]:grid-cols-1 grid-cols-2 gap-12 items-center max-[992px]:max-w-3xl max-[992px]:px-10 max-md:px-5">
         {/* LEFT CONTENT */}
         <div className="space-y-10">
