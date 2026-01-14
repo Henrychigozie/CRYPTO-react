@@ -11,6 +11,8 @@ import GetStarted from '../components/get-started.jsx'
 import HeroServiceSection from '../components/explore.jsx'
 import Reviews from '../components/reviews.jsx'
 import Reviews2 from '../components/reviews2.jsx'
+import ContactUs from '../components/contact.jsx'
+import Footer from '../components/footer.jsx'
 
 function App() {
  
@@ -26,6 +28,8 @@ function App() {
       <HeroServiceSection />
       <Reviews />
       <Reviews2 />
+      <ContactUs />
+      <Footer />
     </>
   )
 }

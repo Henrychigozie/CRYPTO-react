@@ -12,8 +12,7 @@ const Platform = () => {
           backgroundImage: `url(${bgImage})`,
         }}
       >
-        {/* Overlay */}
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-purple-900/50 to-black/80"></div> */}
+     
 
         {/* Header Text */}
         <div className="relative z-10 text-center pt-20 mb-15 text-white">

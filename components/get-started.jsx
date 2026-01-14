@@ -64,7 +64,7 @@ export default function GetStarted() {
   ];
 
   return (
-    <section className="bg-[#0b0527] py-24 px-12 font-sans border border-t-white">
+    <section className="bg-[#0b0527] py-24 px-12 font-sans border border-t-white/20">
       <div className="max-w-7xl mx-auto max-sm:max-w-6xl">
         {/* Header */}
         <div className="text-center mb-20">

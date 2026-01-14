@@ -44,7 +44,7 @@ const Reviews2 = () => {
           <img
             src={img1}
             alt="Mobile app preview"
-            className="relative z-10 w-full rounded-3xl max-[992px]:w-100"
+            className="relative z-10 w-full rounded-3xl max-[992px]:w-100 md:w-100"
           />
         </div>
       </div>
